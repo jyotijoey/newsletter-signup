@@ -29,6 +29,7 @@ app.post("/", function(req,res){
         ]
     }
     var jsonData= JSON.stringify(data);
+//     API and Password not in use. Just for test.
     const url="https://us1.api.mailchimp.com/3.0/lists/45bb2e2e2e";
     const option= {
         method: "POST",
